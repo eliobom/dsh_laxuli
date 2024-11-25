@@ -1,0 +1,69 @@
+/* Fondo de la página */
+.login-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #74b9ff, #a29bfe);
+    font-family: "Arial", sans-serif;
+  }
+  
+  /* Caja del login */
+  .login-box {
+    background: #fff;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Títulos */
+  .login-box h2 {
+    margin-bottom: 10px;
+    font-size: 28px;
+    color: #2d3436;
+  }
+  
+  .login-box p {
+    font-size: 14px;
+    color: #636e72;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo de los inputs */
+  .login-box input {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #dfe6e9;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+  }
+  
+  .login-box input:focus {
+    outline: none;
+    border-color: #74b9ff;
+    box-shadow: 0 0 5px rgba(116, 185, 255, 0.5);
+  }
+  
+  /* Botón */
+  .login-box button {
+    width: 100%;
+    padding: 12px;
+    background: #0984e3;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-box button:hover {
+    background: #74b9ff;
+  }
+  
